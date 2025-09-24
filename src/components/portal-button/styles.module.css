@@ -1,0 +1,17 @@
+.portalButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    background-color: #fff;
+    opacity: 50%;
+    border-radius: 10px;
+    padding-block: 1.5rem;
+    text-decoration: none;
+    padding-inline: clamp(4.563rem, calc(3.924rem + 2.72vw), 6.375rem);
+
+    & > h3 {
+        color: #282882;
+        font-weight: 500;
+    }
+}

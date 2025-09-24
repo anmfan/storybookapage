@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.productionWrapper {
+    position: relative;
+    background: linear-gradient(to bottom, #79b7f8, #b3e0ff);
+}

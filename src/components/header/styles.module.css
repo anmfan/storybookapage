@@ -1,0 +1,58 @@
+.header {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: clamp(1.25rem, calc(0.458rem + 3.38vw), 3.5rem);
+    font-size: 1.25rem;
+
+    a {
+        & > img {
+            width: clamp(6.25rem, calc(4.842rem + 6.01vw), 10.25rem);
+            height: 100%;
+            vertical-align: middle;
+        }
+    }
+}
+
+nav {
+    ul {
+        display: flex;
+        padding-left: 5px;
+        align-items: center;
+        column-gap: clamp(0.5rem, calc(-0.204rem + 3vw), 2.5rem);
+        list-style-type: none;
+
+        li {
+            a {
+                color: #ffffff;
+                text-decoration: none;
+                transition: color .2s ease-in-out;
+
+                &:hover {
+                    color: #fbf3f3
+                }
+            }
+
+            .rightSignLogo {
+                width: 100%;
+                height: auto;
+                min-width: 84px;
+                min-height: 32px;
+            }
+            
+            .burgerIcon {
+                width: clamp(1.5rem, calc(1.148rem + 1.5vw), 2.5rem);
+                height: auto;
+                cursor: pointer;
+            }
+        }
+    }
+}
