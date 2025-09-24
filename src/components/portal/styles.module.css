@@ -1,0 +1,26 @@
+.portal {
+    width: 100%;
+    min-height: 344px;
+    background: url("@assets/bg/portal-bh.png") no-repeat center / cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    text-wrap: pretty;
+    gap: 5rem;
+    padding: clamp(6rem, calc(5.296rem + 3vw), 8rem) clamp(1.25rem, calc(-0.07rem + 5.63vw), 5rem);
+
+    & > a {
+        width: clamp(20.938rem, calc(18.627rem + 9.86vw), 27.5rem)
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,15 @@
+.aboutArticle {
+    display: flex;
+    gap: 1.25rem;
+
+    & > p {
+        color: #282882;
+        text-wrap: balance;
+        line-height: 1.2;
+    }
+
+    & > img {
+        width: clamp(3rem, calc(2.4rem + 1.6vw), 3.5rem);
+        aspect-ratio: 1/1;
+    }
+}
