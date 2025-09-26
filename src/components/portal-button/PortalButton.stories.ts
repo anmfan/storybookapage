@@ -12,5 +12,8 @@ export default meta
 type Story = StoryObj<typeof PortalButton>;
 
 export const Primary: Story = {
-    args: {}
+    args: {},
+    parameters: {
+        layout: "centered"
+    }
 }

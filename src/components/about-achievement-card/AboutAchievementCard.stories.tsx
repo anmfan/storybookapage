@@ -16,5 +16,12 @@ export const Primary: Story = {
     args: {
         icon: swimIcon,
         text: "В водоохранной 200 метровой зоне Байкала у нас расположена только станция добычи глубинной воды из озера"
-    }
+    },
+    decorators: [
+        (Story) => (
+            <div style={{ maxWidth: "880px", margin: "0 auto", padding: "0 1.25rem"}}>
+                <Story />
+            </div>
+        )
+    ]
 }

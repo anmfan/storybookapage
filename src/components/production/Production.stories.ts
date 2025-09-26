@@ -12,5 +12,8 @@ export default meta
 type Story = StoryObj<typeof Production>;
 
 export const Primary: Story = {
-    args: {}
+    args: {},
+    parameters: {
+        layout: "centered"
+    }
 }

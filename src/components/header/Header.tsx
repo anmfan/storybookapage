@@ -17,7 +17,7 @@ const Header = () => {
                         src={Logo}
                         alt="логотип" />
                 </Link>
-                <nav>
+                <nav className={styles.nav}>
                     <ul>
                         <li>
                             <Link to="/">Вакансии</Link>

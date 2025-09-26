@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 1rem;
+    width: clamp(20.938rem, calc(18.627rem + 9.86vw), 27.5rem);
     background-color: #fff;
     opacity: 50%;
     border-radius: 10px;

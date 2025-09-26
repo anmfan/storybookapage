@@ -7,6 +7,7 @@
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
+    color: #ffffff;
     gap: clamp(2.5rem, calc(1.62rem + 3.76vw), 5rem);
     align-items: center;
     padding: clamp(2rem, calc(0.239rem + 7.51vw), 7rem) clamp(1.25rem, calc(-0.07rem + 5.63vw), 5rem);
@@ -15,10 +16,6 @@
         display: flex;
         flex-direction: column;
         gap: clamp(1rem, calc(0.472rem + 2.25vw), 2.5rem);
-
-        & > h2 {
-            text-wrap: balance;
-        }
 
         & > p {
             font-weight: 500;
